@@ -1,0 +1,15 @@
+{
+	"use_ssl": "true",
+	"ssl_key": "./ssl/localhost.key",
+	"ssl_cert": "./ssl/localhost.pem",
+	"html_dir": "./public_html",
+	"ssl_pass": "",
+	"ssl_port": 443,
+	"http_port": 80,
+	"use_only_ssl": "true",
+	"use_only_http": "true",
+	"modules": [
+		"php"
+	],
+	"modules_dir": "./modules"
+}
